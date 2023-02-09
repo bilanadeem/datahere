@@ -32,6 +32,7 @@ export default function TextForm
                 <button className="btn btn-danger mx-2" onClick={handleLowClick}>Convert to lowercase</button>
                 <button className="btn btn-danger mx-2" onClick={handleLowClick}>Convert to lowercase</button>
                 <button className="btn btn-success mx-2" onClick={handleLowClick}>Convert to lowercase</button>
+                <button className="btn btn-success mx-2" onClick={handleLowClick}>yqzase</button>
 
                 <button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to uppercase</button>
             </div>
