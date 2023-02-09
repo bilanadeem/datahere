@@ -30,6 +30,7 @@ export default function TextForm
                 <button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to uppercase</button>
 
                 <button className="btn btn-danger mx-2" onClick={handleLowClick}>Convert to lowercase</button>
+                <button className="btn btn-danger mx-2" onClick={handleLowClick}>Convert to lowercase</button>
             </div>
             <div className="container my-3">
                 <h1>this is Summary</h1>
@@ -37,6 +38,7 @@ export default function TextForm
                 <p>{0.008 * text.split(" ").length} read minutes</p>
             </div>
             <h2>Preview</h2>
+
             <p>{text}</p>
         </>
     )
